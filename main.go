@@ -14,7 +14,6 @@ import (
 )
 
 var token = os.Getenv("GOMONGOTOKEN")
-// const token = "5750682049:AAGAUcHSqXuyo5DM0LWmCW8G08MrkDO3WIw"
 
 func main(){
 	bot, err := tgbotapi.NewBotAPI(token)
